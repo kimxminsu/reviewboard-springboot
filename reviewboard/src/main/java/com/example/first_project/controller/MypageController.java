@@ -43,8 +43,8 @@ public class MypageController {
 		String mcategory="movie";
 		String pcategory="programs";
 		
-		Page<Program> movielists=programService.findByCategory(mcategory, pageable);
-		Page<Program> programslists=programService.findByCategory(pcategory, pageable);
+		List<Program> movielists=programService.findByCategory(mcategory);
+		List<Program> programslists=programService.findByCategory(pcategory);
 		List<Likelist> Likelists =  likeService.findLikelistByUser(user);
 	
 		model.addAttribute("movielists",movielists);

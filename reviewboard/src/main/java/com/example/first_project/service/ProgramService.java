@@ -1,5 +1,7 @@
 package com.example.first_project.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -21,6 +23,13 @@ public class ProgramService {
 	public void save(Program program) {
 		programRepository.save(program);
 	}
+	public List<Program> findAll(){
+		return programRepository.findAll();
+	}
+	//변경 카테고리보기
+	public List<Program> findByCategory(String category){
+		return programRepository.findByCategory(category);
+	}
 	
 	//전체보기(페이지)
 	public Page<Program> findAll(Pageable pageable){
@@ -28,9 +37,9 @@ public class ProgramService {
 	}
 	
 	//전체보기(카테고리)
-	public Page<Program> findByCategory(String category, Pageable pageable){
-		return programRepository.findByCategory(category, pageable);
-	}
+//	public Page<Program> findByCategory(String category, Pageable pageable){
+//		return programRepository.findByCategory(category, pageable);
+//	}
 
 	//상세보기
 	@Transactional

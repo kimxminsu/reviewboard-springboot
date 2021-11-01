@@ -67,11 +67,11 @@ public class ProgramController {
 	@GetMapping("list")
 	public String list(Model model,
 			@PageableDefault(size=5, sort = "programnum", direction = Sort.Direction.DESC) Pageable pageable) {
-		Page<Program> lists=programService.findAll(pageable);
-		
+		//Page<Program> lists=programService.findAll(pageable);
+		List<Program> lists=programService.findAll();
 		model.addAttribute("lists",lists);
 		model.addAttribute("count",programService.count());
-		model.addAttribute("rowNo",programService.count()-(lists.getNumber()*5));
+		//model.addAttribute("rowNo",programService.count()-(lists.getNumber()*5));
 		return "/program/list";
 	}
 
@@ -81,11 +81,11 @@ public class ProgramController {
 			@PageableDefault(size=5, sort = "programnum", direction = Sort.Direction.DESC) Pageable pageable) {
 		
 		String category="movie";
-		Page<Program> lists=programService.findByCategory(category, pageable);
-
+		//Page<Program> lists=programService.findByCategory(category, pageable);
+		List<Program> lists=programService.findByCategory(category);
 		model.addAttribute("lists",lists);
 		model.addAttribute("count",programService.count());
-		model.addAttribute("rowNo",programService.count()-(lists.getNumber()*5));
+		//model.addAttribute("rowNo",programService.count()-(lists.getNumber()*5));
 		return "/program/list";
 	}
 	
@@ -94,11 +94,11 @@ public class ProgramController {
 	public String Programlist(Model model,
 			@PageableDefault(size=5, sort = "programnum", direction = Sort.Direction.DESC) Pageable pageable) {
 		String category="programs";
-		Page<Program> lists=programService.findByCategory(category, pageable);
-		
+		//Page<Program> lists=programService.findByCategory(category, pageable);
+		List<Program> lists=programService.findByCategory(category);
 		model.addAttribute("lists",lists);
 		model.addAttribute("count",programService.count());
-		model.addAttribute("rowNo",programService.count()-(lists.getNumber()*5));
+		//model.addAttribute("rowNo",programService.count()-(lists.getNumber()*5));
 		return "/program/list";
 	}
 	
