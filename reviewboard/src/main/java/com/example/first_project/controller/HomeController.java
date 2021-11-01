@@ -128,7 +128,7 @@ public class HomeController {
 		String sourceFileNameExtension=FilenameUtils.getExtension(sourceFileName).toLowerCase();
 		File destinationFile;
 		String destinationFileName;
-		String fileUrl="C:/Users/sd156/Documents/국비_빅데이터/08 spring_Team project/design김두윤/first_project/src/main/resources/static/images/";
+		String fileUrl="C:/Users/sd156/Documents/git/reviewboard-springboot/reviewboard/src/main/resources/static/images/";
 		
 		do {
 			destinationFileName=RandomStringUtils.randomAlphanumeric(32) + "." + sourceFileNameExtension;
