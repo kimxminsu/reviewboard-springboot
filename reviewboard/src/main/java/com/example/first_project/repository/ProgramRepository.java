@@ -11,7 +11,7 @@ import com.example.first_project.model.Program;
 
 public interface ProgramRepository extends JpaRepository<Program, Long>{
 	
-	@Query(value="select sc.* from program sc where category=?1", nativeQuery = true)
+	@Query(value="select p.*, avg(r.starrating) from program p LEFT OUTER JOIN reply r ON r.bnum = p.programnum where p.category=?1 group by p.programnum order by AVG(r.starrating)", nativeQuery = true)
 	Page<Program> findByCategory(String category, Pageable pageable);
 	
 	
