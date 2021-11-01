@@ -339,11 +339,11 @@ function likeview() {
          success:function(resp){
          var str = " ";
             if (resp != 0) {   // 현재 로그인 유저가 포스팅 좋아요를 눌렀음
-            	 str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://cdn-icons.flaticon.com/png/512/1062/premium/1062573.png?token=exp=1635489350~hmac=e9e392c0a6fc0d7a262d8f2cfdcbc193' onclick='unlikes("+ pnum +")'></img> 좋아요 취소"
+            	 str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://cdn-icons.flaticon.com/png/128/1062/premium/1062573.png?token=exp=1635729343~hmac=ebcc9c1114360aff4aece99a5baf9f42' onclick='unlikes("+ pnum +")'></img> 좋아요 취소"
                  
                  
             } else if (resp == 0) { // 안눌렀음
-               str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://cdn-icons.flaticon.com/png/512/1429/premium/1429875.png?token=exp=1635489360~hmac=0928a975c8910e274f7cc25554ebd119' onclick='likes("+ pnum +")'></img> 좋아요 " 
+               str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://cdn-icons-png.flaticon.com/512/686/686370.png' onclick='likes("+ pnum +")'></img> 좋아요 " 
 
                   
             }
