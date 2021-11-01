@@ -75,7 +75,7 @@
 										<c:set var="programpnum" value="${program.programnum }" />
 									 	<c:if test="${likelistpnum eq programpnum}">
 											<a href="/program/view/${program.programnum}">
-											<img src="/images/${program.files.filename}" style="width:100px;height:100px;"></a>
+											<img src="/images/${program.files.filename}"></a>
 										</c:if> 
 								</c:forEach> 
 							</c:forEach>  
