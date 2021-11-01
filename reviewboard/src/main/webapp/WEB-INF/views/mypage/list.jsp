@@ -30,7 +30,7 @@
                     <div class="col-xl-8 col-lg-8 col-md-col-md-7">
                         <div class="app-active owl-carousel"> 
 			
-			 				 	<c:forEach items="${movielists.content }" var="program" varStatus="status1">
+			 				 	<c:forEach items="${movielists }" var="program" varStatus="status1">
 									<c:forEach items="${likelists }" var="likelist" varStatus="status">
 									 	<c:set var="likelistpnum" value="${likelist.program.programnum }" /> 
 										<c:set var="programpnum" value="${program.programnum }" />
@@ -69,7 +69,7 @@
                     <div class="col-xl-8 col-lg-8 col-md-col-md-7">
                         <div class="app-active owl-carousel"> 
                             
-							<c:forEach items="${programslists.content }" var="program" varStatus="status1">
+							<c:forEach items="${programslists }" var="program" varStatus="status1">
 								<c:forEach items="${likelists }" var="likelist" varStatus="status">
 									 	<c:set var="likelistpnum" value="${likelist.program.programnum }" /> 
 										<c:set var="programpnum" value="${program.programnum }" />
