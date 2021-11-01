@@ -17,11 +17,11 @@
             <div class="slider-active">
                 <div class="single-slider slider-height slider-padding sky-blue d-flex align-items-center">
    <div class="container">
-	<h2>director insert</h2>
+	<h2>감독</h2>
 	<div class="container">
 		<form action="directorinsert" method="post" >
 		<div class="form-group">
-			<label for="directorname">directorname</label>
+			<label for="directorname">감독 이름</label>
 			<input type="text" name="directorname" class="form-control" placeholder="Enter directorname" ><br>
 			</div>
 		<div class="form-group">
@@ -31,7 +31,7 @@
     		<label for="woman">여성</label>
 	
    		</div>
-		<button type="submit" class="btn btn-dark">Submit</button>
+		<button type="submit" class="btn btn-dark">등록</button>
 		</form>
 	</div>
 	

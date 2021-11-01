@@ -30,8 +30,8 @@
                                          
                                         <li><a href="#">LIST</a>
                                             <ul class="submenu">
-                                                <li><a href="/program/movielist">MOVIE</a></li>
-                                        		<li><a href="/program/programlist">TV</a></li>
+                                                <li><a href="/program/movielist">영화</a></li>
+                                        		<li><a href="/program/programlist">방송</a></li>
                                             </ul>
                                         </li>
                                         

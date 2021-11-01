@@ -106,7 +106,7 @@
                                     </div>
                                     <div class="what-cap">
                                         <h4><a href="#">김민수(여)</a></h4>
-                                        <p>회원가입<br>로그인<br>마이페이지</p>
+                                        <p>회원가입<br>로그인<br>마이페이지<br>디자인</p>
                                     </div>
                                 </div>
                             

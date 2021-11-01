@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <head>
-	<title>Login V10</title>
+	<title>로그인</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -35,7 +35,7 @@
 			<div class="wrap-login100 p-t-50 p-b-90">
 				<form action="/loginProc" method="post" class="login100-form validate-form flex-sb flex-w" >
 					<span class="login100-form-title p-b-51">
-						Login
+						로그인
 					</span>
 
 					
@@ -53,12 +53,12 @@
 
 					<div class="container-login100-form-btn m-t-17">
 						<button class="login100-form-btn">
-							Login
+							로그인
 						</button>
 					</div>
 					<div class="container-login100-form-btn m-t-17">
 						<button onclick="location.href='/register' " type="button" id="btnJoin" class="login100-form-btn2">
-							회원가입
+							회원가입으로 이동
 						</button>
 					</div>
 

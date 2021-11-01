@@ -17,15 +17,14 @@
             <div class="slider-active">
                 <div class="single-slider slider-height slider-padding sky-blue d-flex align-items-center">
    <div class="container">
-	<h2>파일업로드</h2>
+	<h2>포스터이미지</h2>
 
 	<div class="container">
 		<form action="fileinsert" method="post"
 			enctype="multipart/form-data">
 			<input type="file" name="files"> 
-			
-
-			<button type="submit" class="btn btn-dark">업로드</button>
+			<br>
+			<button type="submit" class="btn btn-dark">등록</button>
 		</form>
 	</div>
 	

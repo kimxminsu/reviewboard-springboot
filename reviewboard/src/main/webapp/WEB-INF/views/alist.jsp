@@ -17,12 +17,12 @@
             <div class="slider-active">
                 <div class="single-slider slider-height slider-padding sky-blue d-flex align-items-center">
    <div class="container">
-		  <h3>파일 List</h3>
+		  <h3>파일 목록</h3>
   <table class="table table-hover">
     <thead>
       <tr>
-     	<th>파일번호</th>
-        <th>파일이름</th>
+     	<th>파일 번호</th>
+        <th>파일 이름</th>
       </tr>
     </thead> 
     <tbody>    
@@ -34,12 +34,12 @@
     </c:forEach>
      </tbody>
   </table>
-  <h3>스튜디오 List</h3>
+  <h3>스튜디오 목록</h3>
    <table class="table table-hover">
     <thead>
       <tr>
-     	<th>스튜디오번호</th>
-        <th>스튜디오이름</th>
+     	<th>스튜디오 번호</th>
+        <th>스튜디오 이름</th>
       </tr>
     </thead> 
     <tbody>
@@ -51,12 +51,12 @@
     </c:forEach>
     </tbody>
   </table>
-  <h3>배우 List</h3>
+  <h3>배우 목록</h3>
    <table class="table table-hover">
     <thead>
       <tr>
-     	<th>배우이름</th>
-        <th>배우성별</th>
+     	<th>배우 이름</th>
+        <th>배우 성별</th>
       </tr>
     </thead> 
     <tbody>
@@ -68,12 +68,12 @@
     </c:forEach>
     </tbody>
   </table>
-   <h3>디렉터 List</h3>
+   <h3>감독 목록</h3>
    <table class="table table-hover">
     <thead>
       <tr>
-     	<th>디렉터이름</th>
-        <th>디렉터성별</th>
+     	<th>감독 이름</th>
+        <th>감독 성별</th>
       </tr>
     </thead> 
     <tbody>
@@ -85,13 +85,13 @@
     </c:forEach>
     </tbody>
   </table>
-   <h3>캐스트 List</h3>
+   <h3>출연정보 목록</h3>
    <table class="table table-hover">
     <thead>
       <tr>
-     	<th>캐스트번호</th>
-        <th>배우</th>
-        <th>프로그램번호</th>
+     	<th>출연정보 번호</th>
+        <th>배우 이름</th>
+        <th>프로그램 번호</th>
       </tr>
     </thead> 
     <tbody>

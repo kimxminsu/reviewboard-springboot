@@ -17,19 +17,19 @@
             <div class="slider-active">
                 <div class="single-slider slider-height slider-padding sky-blue d-flex align-items-center">
    <div class="container">
-	<h2>studio insert</h2>
+	<h2>제작사</h2>
 
 	<div class="container">
 		<form action="studioinsert" method="post" enctype="multipart/form-data">
 			<div class="form-group">
-			<label for="studioname">스튜디오 이름:</label>
+			<label for="studioname">제작사 이름:</label>
 			<input type="text" name="studioname" class="form-control" placeholder="Enter studioname" >
 			</div>
 			<div class="form-group">
-			<label for="contact">contact:</label>
+			<label for="contact">연락처:</label>
 			 <input type="text" name="contact" class="form-control" placeholder="Enter contact" >		
 </div>
-			<button type="submit" class="btn btn-dark">Submit</button>
+			<button type="submit" class="btn btn-dark">등록</button>
 		</form>
 	</div>
 	

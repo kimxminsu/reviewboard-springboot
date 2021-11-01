@@ -17,19 +17,19 @@
             <div class="slider-active">
                 <div class="single-slider slider-height slider-padding sky-blue d-flex align-items-center">
    <div class="container">
-	<h2>castmates insert</h2>
+	<h2>출연진</h2>
 
 	<div class="container">
 		<form action="castmatesinsert" method="post" >
 	<div class="form-group">
-	<label for="actor">actor:</label>
+	<label for="actor">배우 이름:</label>
 	  <input type="text" name="actor" class="form-control" placeholder="Enter actorname">
 	</div>
 	<div class="form-group">
-	<label for="programnum">프로그램번호:</label>
+	<label for="programnum">프로그램 번호:</label>
 	  <input type="text" name="program" class="form-control" placeholder="Enter programnum">
 	</div>
-	<button type="submit" class="btn btn-dark">Submit</button>
+	<button type="submit" class="btn btn-dark">등록</button>
 	</form>
 	</div>
 	
