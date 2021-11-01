@@ -178,12 +178,11 @@
                            id="starrating4" name="starrating" value="4"><label
                            for="starrating4">★★★★</label> <input type="radio"
                            id="starrating5" name="starrating" value="5"><label
-                           for="starrating5">★★★★★</label> <label for="comment">Comment:</label>
+                           for="starrating5">★★★★★</label>
 
-                        <textarea class="form-control" rows="5" id="msg" name="text"></textarea>
+                        <textarea class="form-control" rows="5" id="msg" name="text" placeholder="댓글내용을 작성하세요."></textarea>
                      </div>
-                     <button type="button" class="btn btn-success" id="commentBtn">Comment
-                        Write</button>
+                     <button type="button" class="btn btn-dark" id="commentBtn">등록</button>
                   </div>
 
                   <div id="replyResult"></div>
@@ -339,11 +338,11 @@ function likeview() {
          success:function(resp){
          var str = " ";
             if (resp != 0) {   // 현재 로그인 유저가 포스팅 좋아요를 눌렀음
-            	 str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://github.com/kimxminsu/reviewboard-springboot/blob/main/reviewboard/src/main/webapp/resources/assets/img/like/like.png' onclick='unlikes("+ pnum +")'></img> 좋아요 취소"
+            	 str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://github.com/kimxminsu/reviewboard-springboot/blob/main/reviewboard/src/main/webapp/resources/assets/img/like/like.png?raw=true' onclick='unlikes("+ pnum +")'></img> 좋아요 취소"
                  
                  
             } else if (resp == 0) { // 안눌렀음
-               str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://github.com/kimxminsu/reviewboard-springboot/blob/main/reviewboard/src/main/webapp/resources/assets/img/like/unlike.png' onclick='likes("+ pnum +")'></img> 좋아요 " 
+               str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://github.com/kimxminsu/reviewboard-springboot/blob/main/reviewboard/src/main/webapp/resources/assets/img/like/unlike.png?raw=true' onclick='likes("+ pnum +")'></img> 좋아요 " 
 
                   
             }
