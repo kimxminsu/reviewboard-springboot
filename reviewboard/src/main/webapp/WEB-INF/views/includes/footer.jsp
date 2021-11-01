@@ -21,7 +21,7 @@
                              </div>
                              <div class="footer-tittle">
                                  <div class="footer-pera">
-                                     <p class="info1">[ TEAM 2 ] 컨텐츠 리뷰 게시판</p>
+                                     <p class="info1">2조 컨텐츠 리뷰 게시판</p>
                                 </div>
                              </div>
                          </div>
@@ -32,7 +32,7 @@
                                 <h4>Quick Links</h4>
                                 <ul>
                                     <li><a href="#">영화 목록</a></li>
-                                    <li><a href="#">TV 목록</a></li>
+                                    <li><a href="#">방송 목록</a></li>
                                 </ul>
                             </div>
                         </div>

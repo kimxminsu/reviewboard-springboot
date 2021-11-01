@@ -339,11 +339,11 @@ function likeview() {
          success:function(resp){
          var str = " ";
             if (resp != 0) {   // 현재 로그인 유저가 포스팅 좋아요를 눌렀음
-            	 str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://cdn-icons.flaticon.com/png/128/1062/premium/1062573.png?token=exp=1635729343~hmac=ebcc9c1114360aff4aece99a5baf9f42' onclick='unlikes("+ pnum +")'></img> 좋아요 취소"
+            	 str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://github.com/kimxminsu/reviewboard-springboot/blob/main/reviewboard/src/main/webapp/resources/assets/img/like/like.png' onclick='unlikes("+ pnum +")'></img> 좋아요 취소"
                  
                  
             } else if (resp == 0) { // 안눌렀음
-               str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://cdn-icons-png.flaticon.com/512/686/686370.png' onclick='likes("+ pnum +")'></img> 좋아요 " 
+               str +="<img href='#javascript' style='width: 20px; height: 20px;' src='https://github.com/kimxminsu/reviewboard-springboot/blob/main/reviewboard/src/main/webapp/resources/assets/img/like/unlike.png' onclick='likes("+ pnum +")'></img> 좋아요 " 
 
                   
             }

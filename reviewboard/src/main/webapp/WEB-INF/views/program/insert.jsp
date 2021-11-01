@@ -17,40 +17,40 @@
             <div class="slider-active">
                 <div class="single-slider slider-height slider-padding sky-blue d-flex align-items-center">
    <div class="container">
-  <h2>Program insert</h2>
+  <h2>프로그램</h2>
   	<form action="insert" method="post" >
   	<div class="form-group">
-  	<label for="title">title:</label>
+  	<label for="title">제목:</label>
 	<input type="text" name="title" class="form-control" placeholder="Enter title"><br>
 	</div>
 	<div class="form-group">
-	<label for="year">year :</label>
+	<label for="year">연도 :</label>
 	<input type="text" name="year"  class="form-control" placeholder="Enter year"><br>
 	</div>
 	<div class="form-group">
-	<label for="synopsis">synopsis:</label>
+	<label for="synopsis">소개:</label>
 	<textarea name="synopsis" class="form-control" rows="5" id="synopsis"></textarea>
 	</div>
 	<div class="form-group">
-	<label for="category">category:</label>
+	<label for="category">분류:</label>
 	<select name="category" class="form-control">
-   <option value="movie">movie</option>
-   <option value="programs">programs</option>
+   <option value="movie">영화</option>
+   <option value="programs">방송</option>
    </select>
    </div>
   <div class="form-group">
-  <label for="director">director:</label>
+  <label for="director">감독 이름:</label>
 	<input type="text" name="director" class="form-control" placeholder="Enter director">
 	</div>
 	<div class="form-group">
-	<label for="studio">studio:</label>
+	<label for="studio">제작사 번호:</label>
 	<input type="text" name="studio" class="form-control" placeholder="Enter studio"><br>
 	</div>
 	<div class="form-group">
-	<label for="files">files:</label>
+	<label for="files">포스터이미지 번호:</label>
 	<input type="text" name="files" class="form-control" placeholder="Enter files">
 	</div>
-	<button type="submit" class="btn btn-dark"> Submit</button>
+	<button type="submit" class="btn btn-dark"> 등록</button>
 	</form>
   	
 </div>
